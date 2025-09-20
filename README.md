@@ -1,6 +1,8 @@
-Project Name
+CityGPT
 
-Project Track:
+305 Hackathon 2025
+
+Track #02 📱Digital City Platforms & Applications 📱
 
 Link to demo video (max five min)
 
