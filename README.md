@@ -19,7 +19,7 @@ CityGPT is the virtual web assistant for your city's needs. The chat answers que
 - Pydantic for chat request data
 
 ## Setup:
-Open
+Site is live at https://fdumary.github.io/CityGPT/.
 
 ## Contributors:
 - Francesca Dumary - frontend development, backend development, API integration
