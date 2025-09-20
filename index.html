@@ -17,32 +17,20 @@
   <button onclick="sendMessage()">Send</button>
 
   <script>
-    async function sendMessage() {
+    function sendMessage() {
       const input = document.getElementById("messageInput");
       const chatBox = document.getElementById("chat");
       const userMessage = input.value.trim();
       if (!userMessage) return;
 
-      // Show user message in chat box
       chatBox.innerHTML += `<div class="user"><b>You:</b> ${userMessage}</div>`;
       input.value = "";
 
-      try {
-        // Send POST request to FastAPI backend
-        const response = await fetch("http://127.0.0.1:8000/chat", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ message: userMessage })
-        });
+      // 🔹 Mock reply
+      const reply = `CityGPT says: You asked "${userMessage}". Here's a mock answer for demo!`;
 
-        const data = await response.json();
-
-        // Show bot reply
-        chatBox.innerHTML += `<div class="bot"><b>CityGPT:</b> ${data.reply}</div>`;
-        chatBox.scrollTop = chatBox.scrollHeight; // auto scroll
-      } catch (err) {
-        chatBox.innerHTML += `<div class="bot"><b>Error:</b> ${err}</div>`;
-      }
+      chatBox.innerHTML += `<div class="bot"><b>CityGPT:</b> ${reply}</div>`;
+      chatBox.scrollTop = chatBox.scrollHeight;
     }
   </script>
 </body>
