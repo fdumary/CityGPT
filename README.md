@@ -1,3 +1,5 @@
+<img width="1270" height="732" alt="Screenshot 2025-09-20 190350" src="https://github.com/user-attachments/assets/262b19e2-d3a9-4934-b9cb-682d82e6461d" />
+
 # CityGPT
 
 305 Hackathon 2025, Track #2 - Digital City Platforms & Apps
@@ -27,4 +29,10 @@ Site is live at https://fdumary.github.io/CityGPT/.
 ## Demo video:
 
 ## Screenshots:
+<img width="1893" height="994" alt="Screenshot 2025-09-21 024534" src="https://github.com/user-attachments/assets/26ddc369-ef33-4290-b183-cfb8aa7fbca9" />
 
+<img width="1893" height="996" alt="Screenshot 2025-09-21 024554" src="https://github.com/user-attachments/assets/0a23d6d5-a9d0-49dc-ad15-783aa31f802d" />
+
+<img width="1887" height="987" alt="Screenshot 2025-09-21 024612" src="https://github.com/user-attachments/assets/fac7b1c8-bafe-4efa-9019-6d29cfecef01" />
+
+<img width="1881" height="988" alt="Screenshot 2025-09-21 024622" src="https://github.com/user-attachments/assets/4f4a48ad-d840-429c-8faa-4996b3e5acaf" />
