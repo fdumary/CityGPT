@@ -3,35 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <title>CityGPT Chat</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    #chat { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto; margin-bottom: 10px; }
-    .user { color: blue; margin: 5px 0; }
-    .bot { color: green; margin: 5px 0; }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h2>CityGPT Chat</h2>
-  <div id="chat"></div>
-  <input id="messageInput" type="text" placeholder="Type a message..." size="40">
-  <button onclick="sendMessage()">Send</button>
+  <h1>CityGPT Chat</h1>
+  <div class="page-content page-container" id="page-content">
+    <div class="padding">
+        <div class="row container d-flex justify-content-center">
+<div class="col-md-6">
+            <div class="card card-bordered">
+              <div class="card-header">
+                <h4 class="card-title"><strong>CityGPT</strong></h4>
+              </div>
 
-  <script>
-    function sendMessage() {
-      const input = document.getElementById("messageInput");
-      const chatBox = document.getElementById("chat");
-      const userMessage = input.value.trim();
-      if (!userMessage) return;
 
-      chatBox.innerHTML += `<div class="user"><b>You:</b> ${userMessage}</div>`;
-      input.value = "";
+              <div class="ps-container ps-theme-default ps-active-y" id="chat-content" style="overflow-y: scroll !important; height:400px !important;">
+                <div class="media media-chat">
+                  <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                  <div class="media-body">
+                    <p>Hello CityGPT!</p>
+                    <p class="meta"><time datetime="2018">23:58</time></p>
+                  </div>
+                </div>
 
-      // 🔹 Mock reply
-      const reply = `CityGPT says: You asked "${userMessage}". Here's a mock answer for demo!`;
+                <div class="media media-meta-day">Today</div>
 
-      chatBox.innerHTML += `<div class="bot"><b>CityGPT:</b> ${reply}</div>`;
-      chatBox.scrollTop = chatBox.scrollHeight;
-    }
-  </script>
+                <div class="media media-chat media-chat-reverse">
+                  <div class="media-body">
+                    <p>Hello!</p>
+                    <p>I'm CityGPT, your smart city assistant.</p>
+                    <p>How may I assist you?</p>
+                    <p class="meta"><time datetime="2018">00:06</time></p>
+                  </div>
+                </div>
+
+                <div class="media media-chat">
+                  <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                  <div class="media-body">
+                    <p>Are there any events happening this weekend?</p>
+                    <p class="meta"><time datetime="2018">00:07</time></p>
+                  </div>
+                </div>
+
+                <div class="media media-chat media-chat-reverse">
+                  <div class="media-body">
+                    <p>Yes!</p>
+                    <p>On Saturday, there will be food truck festival at the park.</p>
+                    <p>On Sunday, there will be a Jazz Concert at the ampitheatre.</p>
+                    <p class="meta"><time datetime="2018">00:09</time></p>
+                  </div>
+                </div>
+
+                <div class="media media-chat">
+                  <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                  <div class="media-body">
+                    <p>Those events sound interesting.</p>
+                    <p>But I need to pay my water bill soon.</p>
+                    <p class="meta"><time datetime="2018">00:10</time></p>
+                  </div>
+                </div>
+
+                <div class="media media-chat media-chat-reverse">
+                  <div class="media-body">
+                    <p>You can pay your water bill through the City Services Portal.</p>
+                    <p>Just log in at city.gov/payments and select "Water Utilities."</p>
+                    <p class="meta"><time datetime="2018">00:10</time></p>
+                  </div>
+                </div>
+
+                <div class="media media-chat">
+                  <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                  <div class="media-body">
+                    <p>That's cool!</p>
+                    <p>By the way, I just remembered that there was a broken streetlight.</p>
+                    <p class="meta"><time datetime="2018">00:12</time></p>
+                  </div>
+                </div>
+
+                <div class="media media-chat media-chat-reverse">
+                  <div class="media-body">
+                    <p>Got it! Please provide the nearest street address or intersection so I can submit a report.</p>
+                    <p class="meta"><time datetime="2018">00:12</time></p>
+                  </div>
+                </div>
+
+              <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div></div></div>
+
+              <div class="publisher bt-1 border-light">
+                <img class="avatar avatar-xs" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                <input class="publisher-input" type="text" placeholder="Write something">
+                <span class="publisher-btn file-group">
+                  <i class="fa fa-paperclip file-browser"></i>
+                  <input type="file">
+                </span>
+                <a class="publisher-btn" href="#" data-abc="true"><i class="fa fa-smile"></i></a>
+                <a class="publisher-btn text-info" href="#" data-abc="true"><i class="fa fa-paper-plane"></i></a>
+              </div>
+
+             </div>
+          </div>
+          </div>
+          </div>
+          </div>
 </body>
 </html>
