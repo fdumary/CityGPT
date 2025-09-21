@@ -27,6 +27,7 @@ Site is live at https://fdumary.github.io/CityGPT/.
 - Francesca Dumary - frontend development, backend development, API integration
 
 ## Demo video:
+https://youtu.be/iBeTh8noCEg
 
 ## Screenshots:
 <img width="1893" height="994" alt="Screenshot 2025-09-21 024534" src="https://github.com/user-attachments/assets/26ddc369-ef33-4290-b183-cfb8aa7fbca9" />
